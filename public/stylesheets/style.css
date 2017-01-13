@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #3da33d;
+}
+
+a:hover,
+a:focus {
+  color: #3da33d;
+  text-decoration: underline;
+}
+
+.breadcrumb {
+padding:0px;
+} 
