@@ -44,3 +44,7 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+app.get('/', function(req, res){
+  res.render('index', { title: 'Express', scripts: ['javascripts/jquery.slimscroll.js']});
+});
